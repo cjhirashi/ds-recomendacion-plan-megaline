@@ -91,6 +91,20 @@ Proyecto del **Sprint 9** en **TripleTen**. Desarrollo de un modelo de **Machine
 
 ---
 
+## 📑 Dataset
+
+**Archivo:** `/datasets/users_behavior.csv`
+
+**Columnas principales:**
+
+* `calls` → Número de llamadas
+* `minutes` → Duración total de llamadas en minutos
+* `messages` → Número de SMS enviados
+* `mb_used` → Tráfico de internet usado en MB
+* `is_ultra` → Plan actual (Ultra = 1, Smart = 0)
+
+---
+
 ## 📊 Conclusiones y Resultados Finales
 
 - **Baseline (DummyClassifier):**  
@@ -122,20 +136,6 @@ El modelo supera el umbral de éxito del proyecto (**accuracy ≥ 0.75**) y perm
 - Mejorar la recomendación de planes a clientes.  
 - Optimizar estrategias de marketing.  
 - Facilitar la migración hacia planes nuevos (Smart y Ultra).
-
----
-
-## 📑 Dataset
-
-**Archivo:** `/datasets/users_behavior.csv`
-
-**Columnas principales:**
-
-* `calls` → Número de llamadas
-* `minutes` → Duración total de llamadas en minutos
-* `messages` → Número de SMS enviados
-* `mb_used` → Tráfico de internet usado en MB
-* `is_ultra` → Plan actual (Ultra = 1, Smart = 0)
 
 ---
 
