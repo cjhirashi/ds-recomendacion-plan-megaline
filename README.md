@@ -30,6 +30,7 @@ Proyecto del **Sprint 9** en **TripleTen**. Desarrollo de un modelo de **Machine
 * [NumPy](https://numpy.org/)
 * [Scikit-Learn](https://scikit-learn.org/stable/)
 * [Jupyter Notebook](https://jupyter.org/)
+* [Conda](https://docs.conda.io/) – gestión de entornos y dependencias
 
 ---
 
@@ -37,10 +38,11 @@ Proyecto del **Sprint 9** en **TripleTen**. Desarrollo de un modelo de **Machine
 
 ```bash
 .
-├── data/
+├── datasets/
 │   └── users_behavior.csv     # Dataset principal
 ├── notebooks/
 │   └── sprint9_analysis.ipynb # Notebook con el análisis y modelos
+├── environment.yml            # Archivo para recrear el entorno con conda
 └── README.md
 ```
 
@@ -69,11 +71,11 @@ Proyecto del **Sprint 9** en **TripleTen**. Desarrollo de un modelo de **Machine
    cd proyecto-sprint-9
    ```
 
-2. **Instalar dependencias (recomendado usar pipenv)**
+2. **Crear entorno con Conda**
 
    ```bash
-   pipenv install
-   pipenv shell
+   conda env create -f environment.yml
+   conda activate tp-sprint-9
    ```
 
 3. **Ejecutar Notebook**
