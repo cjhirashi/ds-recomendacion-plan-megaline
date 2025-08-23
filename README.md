@@ -91,6 +91,40 @@ Proyecto del **Sprint 9** en **TripleTen**. Desarrollo de un modelo de **Machine
 
 ---
 
+## 📊 Conclusiones y Resultados Finales
+
+- **Baseline (DummyClassifier):**  
+  Accuracy = **0.694** → refleja el desbalance del dataset (69% usuarios en plan Smart, 31% en Ultra).  
+
+- **DecisionTreeClassifier:**  
+  Mejor resultado con `max_depth=3` → Accuracy = **0.804** en validación.  
+
+- **RandomForestClassifier (modelo ganador):**  
+  - Accuracy en validación = **0.812**  
+  - Accuracy en prueba = **0.795**  
+  → Modelo robusto y con buena capacidad de generalización.  
+
+- **LogisticRegression:**  
+  Accuracy estable en torno a **0.750**, útil como modelo interpretable pero con menor desempeño que los modelos basados en árboles.  
+
+### 🚀 Recomendaciones
+1. **Modelo a implementar:**  
+   - **RandomForestClassifier (n_estimators=100, max_depth=5)** como modelo productivo para recomendar planes Smart o Ultra.  
+
+2. **Mejoras futuras:**  
+   - Ingeniería de características con más variables de cliente.  
+   - Balanceo de clases (`class_weight='balanced'` o técnicas de sobremuestreo).  
+   - Validación cruzada (`cross_val_score`) para mayor robustez.  
+   - Optimización más exhaustiva de hiperparámetros con `GridSearchCV`.  
+
+### 💡 Impacto en negocio
+El modelo supera el umbral de éxito del proyecto (**accuracy ≥ 0.75**) y permite a **Megaline**:  
+- Mejorar la recomendación de planes a clientes.  
+- Optimizar estrategias de marketing.  
+- Facilitar la migración hacia planes nuevos (Smart y Ultra).
+
+---
+
 ## 📑 Dataset
 
 **Archivo:** `/datasets/users_behavior.csv`
