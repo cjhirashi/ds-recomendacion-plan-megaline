@@ -86,9 +86,27 @@ Proyecto del **Sprint 9** en **TripleTen**. Desarrollo de un modelo de **Machine
 
 ---
 
+## ♻️ Gestión del entorno con Conda
+
+* **Eliminar entorno** (para liberar espacio):
+
+  ```bash
+  conda env remove -n tp-sprint-9
+  ```
+
+* **Recrear entorno** (a partir del archivo `environment.yml`):
+
+  ```bash
+  conda env create -f environment.yml
+  conda activate tp-sprint-9
+  ```
+
+Esto asegura que el proyecto se pueda reabrir en cualquier máquina con las versiones correctas de Python y librerías.
+
+---
+
 ## 👨‍💻 Autor
 
 **Carlos Jiménez Hirashi**
 💼 Data Scientist Jr. | Python & Machine Learning
 📧 [cjhirashi@gmail.com](mailto:cjhirashi@gmail.com) · 🌐 [LinkedIn](https://www.linkedin.com/in/cjhirashi)
-
