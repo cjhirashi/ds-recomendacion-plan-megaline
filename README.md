@@ -9,7 +9,7 @@
 
 ## 🚀 Descripción
 
-Proyecto del **Sprint 9** en **TripleTen**. Desarrollo de un modelo de **Machine Learning** para clasificar clientes de Megaline y recomendar el plan óptimo (**Smart** o **Ultra**). El modelo debe alcanzar una exactitud mínima de **0.75**.
+Proyecto del **Sprint 9** del programa de Ciencia de Datos. Desarrollo de un modelo de **Machine Learning** para clasificar clientes de Megaline y recomendar el plan óptimo (**Smart** o **Ultra**). El modelo debe alcanzar una exactitud mínima de **0.75**.
 
 ---
 
